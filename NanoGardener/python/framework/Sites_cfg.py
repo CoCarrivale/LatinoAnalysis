@@ -16,9 +16,10 @@ Sites = {
   'cern' : {
               'lsCmd'       : 'ls' ,
               'mkDir'       : True ,
-              'xrootdPath'  : 'root://eoscms.cern.ch/' ,
-              'treeBaseDir' : '/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWWNano/' ,
-            #   'treeBaseDir' : '/eos/cms/store/group/phys_smp/VJets_NLO_VBSanalyses/', 
+              'xrootdPath'  : 'root://eoshome-c.cern.ch/' ,
+              #'treeBaseDir' : '/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWWNano/' ,
+              'treeBaseDir' : '/eos/user/c/ccarriva/postproc/nani' ,
+              'treeBaseDirOut': '/eos/user/c/ccarriva/postproc/latini'
               'batchQueues' : ['8nh','1nd','2nd','1nw'],
               'slc_ver'     : 7
            } ,

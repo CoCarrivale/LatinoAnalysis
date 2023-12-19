@@ -30,7 +30,8 @@ class PostProcMaker():
      self._cmsswBasedir = os.environ["CMSSW_BASE"]
 
      #self._aaaXrootd = 'root://cms-xrd-global.cern.ch//'
-     self._aaaXrootd = 'root://xrootd-cms.infn.it/'
+     #self._aaaXrootd = 'root://xrootd-cms.infn.it/'
+     self._aaaXrootd = 'root://eoshome-c.cern.ch/'
 
      self._haddnano  = 'PhysicsTools/NanoAODTools/scripts/haddnano.py'
      if '/usr/lib64/python2.7/site-packages' not in sys.path:
